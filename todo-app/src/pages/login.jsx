@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom'; // Import the useNavigate hook
-
+import './login.css'
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -42,6 +42,7 @@ const Login = () => {
   return (
     <div className="login-container">
       <h2>Login Form</h2>
+      <br />
       <form onSubmit={handleSubmit}>
         <div>
           <label>Email: </label>
@@ -72,3 +73,4 @@ const Login = () => {
 };
 
 export default Login;
+ 

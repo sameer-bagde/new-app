@@ -1,0 +1,64 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Horizontally centers the form */
+    align-items: center; /* Vertically centers the form */
+}
+/* Style for the login container */
+.form {
+    width: 500px;
+    height: 250px;
+    margin: 50px;
+    outline: solid 1px black;
+  }
+
+
+
+
+/* Styling for the form title */
+h2 {
+    margin-bottom: 20px; /* Space below the title */
+    color: #333; /* Dark text color */
+    font-size: 24px; /* Larger title font size */
+}
+
+/* Style for form elements (input fields and button) */
+form {
+    width: 100%; /* Make form take full width */
+}
+
+input {
+    width: 100%; /* Full width for input fields */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Optional: rounded corners for input fields */
+    font-size: 16px; /* Larger text for better readability */
+}
+
+/* Style for the submit button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Green background for the button */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Optional: rounded corners for button */
+    font-size: 16px;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Message styling */
+.message {
+    margin-top: 20px;
+    color: #e74c3c; /* Red color for error messages */
+    font-size: 14px;
+    text-align: center;
+}
